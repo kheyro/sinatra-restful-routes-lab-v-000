@@ -1,5 +1,5 @@
 <ul>
   <% @recipes.each do |recipe| %>
-    <li><a href="/posts/<%= recipe.id %>" <%= recipe.name %></li>
+    <li><a href="/posts/<%= recipe.id %>"><%= recipe.name %></a></li>
   <% end %>
 </ul>
